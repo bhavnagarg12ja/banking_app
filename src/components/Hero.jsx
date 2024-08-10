@@ -19,7 +19,7 @@ const Hero = () => (
           The Next <br className="hidden sm:block" />{' '}
           <span className="text-gradient">Generation</span>{' '}
         </h1>
-        <div>
+        <div className="ss:flex hidden md:mr-4 mr-0">
           <GetStarted />
         </div>
       </div>
